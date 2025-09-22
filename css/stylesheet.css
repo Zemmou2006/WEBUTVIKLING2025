@@ -164,11 +164,25 @@
   article{
     margin: 1rem 0;
     border: 1px solid #efefef;
-    max-width: 400px;
-    width: 100%;
+    width: 31%;
     min-width: 250px;
     padding: 1rem;
+    max-width: 800px;
   }
+
+  .category-card{
+    width: 33%;
+    flex-grow: none;
+  }
+
+  .flex-grow1{
+    flex-grow: 1;
+  }
+
+  .flex-grow2{
+    flex-grow: 2;
+  }
+  
   article img{
     width: 100%;   /* HVA: Unngår overflow og inkonsistent skalering */
     height: auto;
